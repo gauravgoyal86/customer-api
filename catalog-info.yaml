@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: customer-api
+  description: Sample customer API for Developer Hub POC
+  annotations:
+    github.com/project-slug: gauravgoyal86/customer-api
+  tags:
+    - java
+    - api
+    - openshift
+spec:
+  type: service
+  lifecycle: experimental
+  owner: platform-team
